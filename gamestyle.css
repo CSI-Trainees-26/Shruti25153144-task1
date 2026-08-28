@@ -93,3 +93,107 @@ nav h3{
     color: white;
     text-decoration: none;
 }
+.gen{
+    border-radius:13%;
+    background-color: #300204;
+    padding: 10px;
+    display: flex;
+}
+.hero h2{
+    font-size: 48px;
+}
+.hero p{
+    font-size: 25px;
+}
+.char{
+      border-radius: 13%;
+    background-color: #300204;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+.hero ul{
+    font-size: 25px;
+    color: white;
+}
+
+.story{
+       border-radius: 13%;
+    background-color: #300204;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+.story p {
+    color: white;
+}
+h2{
+    color: cyan;
+}
+h1{
+    animation: shine 4s infinite;
+    font-size: 100PX; 
+}
+@keyframes shine{
+    0% {
+        text-shadow: 0 0 20px red;
+    }
+    25% {
+        text-shadow: 0 0 30px purple;
+    }
+    50% {
+        text-shadow: 0 0 50px #41454A;
+    }
+    75% {
+        text-shadow: 0 0 25px blue;
+    }
+    100% {
+        text-shadow: 0 0 5px black;
+    }
+}
+.name h3{
+    color: #03074A;
+    text-shadow: 0 0 5px white,
+                 0 0 10px #FFF33F,
+                 0 0 15px #07FF2E;
+}
+h3{
+    color: #FF0000;
+    text-shadow: 0 0 25px white;
+}
+.sce img{
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-right: 5px;
+    padding: 5px 15px;
+}
+.hero2{
+    display: block;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.cast{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.cast img{
+     
+    width: 200px;
+    height: 200px;
+    margin-top: 1px;
+    border-color: 6px solid white;
+    border-style: inset;
+}
+.cast h3{
+    color: white;
+    text-align: center;
+}
+p1{
+    border-radius: 30%;
+    background-color: rgba(0,0,0,.5);
+    padding: 3px;
+}
