@@ -133,3 +133,44 @@ main{
     border: none;
     padding: 10px;
 }
+.footer{
+    background-color: #c29b62;
+    color: #2b1810;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 20px;
+    margin-top: 40px;
+    border-top: 2px dashed #8c6736;
+}
+.footer-end{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+    font-size: .85rem;
+    letter-spacing: 1px;
+}
+.footer-icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #2b1810;
+    color: #c29b62;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+
+.section1,
+.section2 {
+    transition: transform 0.7s ease;
+}
+
+.section1:hover,
+.section2:hover {
+    transform: scale(1.03);
+}
