@@ -65,3 +65,13 @@ nav h3{
     justify-content: space-between;
     
 }
+.header{
+    height: 700px;
+    color: white;
+    font-size: 40px;
+    padding: 250px 65px;
+}
+.style p {
+    margin: 20px;
+    font-size: 25px;
+}
