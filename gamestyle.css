@@ -60,4 +60,36 @@ nav h3{
     justify-content: space-between;
     
 }
+.header{
+    height: 600px;
+    color: white;
+    font-size: 40px;
+    padding: 160px 65px 0px 65px;
+}
+.header h2{
+    color: white;
+}
+.style p {
+    margin: 10px;
+    font-size: 25px;
+}
+.box{
+     background: rgba(0, 0, 0, 0.2); 
+    backdrop-filter: blur(2px) brightness(1.2);
+    -webkit-backdrop-filter: blur(10px);
+}
+.trailer{
+    width: 180px;
+    height: 10px;
+    background-color:brown;
+    color: #c29b62;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 15px;
 
+}
+.trailer a{
+    color: white;
+    text-decoration: none;
+}
