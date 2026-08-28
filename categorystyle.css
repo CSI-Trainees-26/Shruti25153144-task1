@@ -96,3 +96,74 @@ nav h3{
     color: white;
     text-decoration: none;
 }
+.hero h1{
+    color: white;
+    text-shadow: 0 0 15px red;
+    animation: shine 4s infinite;
+    border-radius: 40%;
+}
+@keyframes shine{
+    0% {
+        text-shadow: 0 0 20px red;
+    }
+    25% {
+        text-shadow: 0 0 30px yellow;
+    }
+    50% {
+        text-shadow: 0 0 50px orangered;
+    }
+    75% {
+        text-shadow: 0 0 25px blue;
+    }
+    100% {
+        text-shadow: 0 0 5px black;
+    }
+}
+.one h2{
+    color:red;
+}
+.one p{
+    color:white;
+}
+.two h2{
+    color:red;
+}
+.two p{
+    color:white;
+}
+.three h2{
+    color:red;
+}
+.three p{
+    color:white;
+}
+.four h2{
+    color:red;
+}
+.four p{
+    color:white;
+}
+.card{
+    width: 200px;
+    background-color: #631B28;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    border: 2px shiny white;
+    border-style: dashed;
+    transition: 0.4 ease;
+}
+.card:hover{
+    transform: scale(1.08);
+}
+.games{
+    display: flex;
+    justify-content: center;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+.card h3{
+    margin: 10px;
+}
