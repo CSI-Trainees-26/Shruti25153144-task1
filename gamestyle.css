@@ -197,3 +197,84 @@ p1{
     background-color: rgba(0,0,0,.5);
     padding: 3px;
 }
+.footer{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 20px;
+    margin-top: 40px;
+    border-top: 2px dashed #8c6736;
+}
+.footer h4{
+    font-size: 20px;
+    color: white;
+}
+.footer h2{
+    font-size: 25px;
+    color:#300204;
+}
+.end-icon {
+    width: 120px;
+    height: 2px;
+    background-color:brown;
+    color: #c29b62;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+}
+.end-icon a {
+    color: white;
+    text-decoration: none;
+}
+.section1,
+.section2 {
+    transition: transform 0.7s ease;
+}
+
+.section1:hover,
+.section2:hover {
+    transform: scale(1.03);
+}
+.section2,
+.section3{
+    transition: transform 0.7s ease;
+}
+
+.section2:hover,
+.section3:hover {
+    transform: scale(1.03);
+}
+.section3,
+.section4{
+    transition: transform 0.7s ease;
+}
+
+.section3:hover,
+.section4:hover {
+    transform: scale(1.03);
+}
+.section4,
+.section5{
+    transition: transform 0.7s ease;
+}
+
+.section4:hover,
+.section5:hover {
+    transform: scale(1.03);
+}
+.section5,
+.section6{
+    transition: transform 0.7s ease;
+}
+
+.section5:hover,
+.section6:hover {
+    transform: scale(1.03);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
