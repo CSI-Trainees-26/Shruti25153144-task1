@@ -167,3 +167,71 @@ nav h3{
 .card h3{
     margin: 10px;
 }
+.footer{
+    background-color: #38331D;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 600;
+    font-size: .85rem;
+    letter-spacing: 1px;
+    border-style: dashed;
+}
+.footer h3{
+    color: yellow;
+    text-align: center;
+}
+.footer p{
+    font-size: 20px;
+    padding: 30px;
+}
+.section1,
+.section2 {
+    transition: transform 0.7s ease;
+}
+
+.section1:hover,
+.section2:hover {
+    transform: scale(1.03);
+}
+.section2,
+.section3{
+    transition: transform 0.7s ease;
+}
+
+.section2:hover,
+.section3:hover {
+    transform: scale(1.03);
+}
+.section3,
+.section4{
+    transition: transform 0.7s ease;
+}
+
+.section3:hover,
+.section4:hover {
+    transform: scale(1.03);
+}
+.section4,
+.section5{
+    transition: transform 0.7s ease;
+}
+
+.section4:hover,
+.section5:hover {
+    transform: scale(1.03);
+}
+.section5,
+.section6{
+    transition: transform 0.7s ease;
+}
+
+.section5:hover,
+.section6:hover {
+    transform: scale(1.03);
+}
+html{
+    scroll-behavior: smooth;
+}
+
