@@ -188,3 +188,52 @@ nav h3{
 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
+footer{
+    background-color: #38331D;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 600;
+    font-size: .85rem;
+    letter-spacing: 1px;
+    border-style: dashed;
+    padding-left: 250px;
+}
+.download-icon {
+    width: 120px;
+    height: 20px;
+    background-color:brown;
+    color: #c29b62;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    margin: 20px;
+}
+.download-icon a {
+    color: white;
+    text-decoration: none;
+}
+.section1,
+.section2 {
+    transition: transform 0.7s ease;
+}
+
+.section1:hover,
+.section2:hover {
+    transform: scale(1.03);
+}
+.section2,
+.section3{
+    transition: transform 0.7s ease;
+}
+
+.section2:hover,
+.section3:hover {
+    transform: scale(1.03);
+}
+
+html{
+    scroll-behavior: smooth;
+}
