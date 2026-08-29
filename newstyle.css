@@ -66,3 +66,69 @@ nav h3{
     justify-content: space-between;
     
 }
+.header{
+    height: 600px;
+    color: white;
+    font-size: 40px;
+    padding: 160px 65px 0px 65px;
+    background-image: url("image/ChatGPT\ Image\ Aug\ 29\,\ 2026\,\ 03_29_45\ AM.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.box{
+     background: rgba(189, 114, 33, 0.1);
+    backdrop-filter: blur(1px) brightness(1.2);
+    -webkit-backdrop-filter: blur(10px);
+    font-size: 35px;
+    padding: 25px;
+    width: 690px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.style{
+    padding: 20px;
+    text-shadow: 0 0 10px white,
+                 0 0 15px #F0FF45,
+                 0 0 20px yellow; 
+}
+.header::after {
+    content: "";
+
+    position: absolute;
+
+    bottom: -170px;
+    left: -10%;
+
+    width: 120%;
+    height: 270px;
+
+    background:
+        radial-gradient(
+            ellipse at 15% 40%,
+            rgba(100, 30, 10, 0.8),
+            transparent 60%
+        ),
+        radial-gradient(
+            ellipse at 45% 30%,
+            rgba(80, 25, 10, 0.8),
+            transparent 60%
+        ),
+        radial-gradient(
+            ellipse at 75% 45%,
+            rgba(90, 30, 15, 0.9),
+            transparent 60%
+        ),
+        linear-gradient(
+            to bottom,
+            transparent,
+            #1d0c0d 90%
+        );
+
+    filter: blur(40px);
+
+    z-index: 2;
+
+    pointer-events: none;
+}
