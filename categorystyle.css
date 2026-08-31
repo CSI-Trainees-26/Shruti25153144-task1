@@ -27,7 +27,7 @@ body {
 .navlinks a {
            color: #49FF10;
            font-size: 17px;
-           font-weight: 400px;
+           font-weight: 1000px;
            text-decoration: none;
 }
 nav h2{
@@ -62,6 +62,10 @@ nav h3{
 }
 .navlinks a:hover{
     color: red;
+    transform: scale(1.10);
+}
+.rate i{
+    text-shadow: 0 0 20px black;
 }
 .header{
     height: 600px;
@@ -100,7 +104,9 @@ nav h3{
     color: white;
     text-shadow: 0 0 15px red;
     animation: shine 4s infinite;
-    border-radius: 40%;
+    margin: 36px;
+    padding-top: 40px;
+    font-size: 45px;
 }
 @keyframes shine{
     0% {
@@ -120,28 +126,56 @@ nav h3{
     }
 }
 .one h2{
+    font-size: 35px;
     color:red;
+    margin: 20px;
+    text-align: center;
 }
 .one p{
+    font-size: 28px;
     color:white;
+    margin: 20px;
+    text-align: center;
 }
 .two h2{
+    font-size: 35px;
     color:red;
+    margin-top: 70px;
+    
+    text-align: center;
 }
 .two p{
+    font-size: 28px;
     color:white;
+    margin-left: 60px;
+    margin-right: 70px;
+    text-align: center;
 }
 .three h2{
+    font-size: 35px;
     color:red;
+    margin-top: 70px;
+    text-align: center;
 }
 .three p{
+    font-size: 28px;
     color:white;
+    margin-left: 60px;
+    margin-right: 70px;
+    text-align: center;
 }
 .four h2{
+    font-size: 35px;
     color:red;
+    margin-top: 70px;
+    text-align: center;
 }
 .four p{
+    font-size: 28px;
     color:white;
+    margin-left: 60px;
+    margin-right: 70px;
+    text-align: center;
 }
 .card{
     width: 200px;
@@ -149,12 +183,11 @@ nav h3{
     margin: 10px;
     padding: 15px;
     text-align: center;
-    border: 2px shiny white;
-    border-style: dashed;
+    border: 2px solid white;
     transition: 0.4 ease;
 }
 .card:hover{
-    transform: scale(1.08);
+    transform: scale(1.12);
 }
 .games{
     display: flex;
@@ -168,23 +201,26 @@ nav h3{
     margin: 10px;
 }
 .footer{
-    background-color: #38331D;
+    background: linear-gradient(165deg, #050505, #330000,#1d2920);
     color: white;
+    margin-top: 65px;
     display: flex;
     align-items: center;
     gap: 15px;
     font-weight: 600;
-    font-size: .85rem;
     letter-spacing: 1px;
     border-style: dashed;
 }
 .footer h3{
     color: yellow;
     text-align: center;
+    font-size: 40px;
 }
 .footer p{
-    font-size: 20px;
-    padding: 30px;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 26px;
 }
 .section1,
 .section2 {
