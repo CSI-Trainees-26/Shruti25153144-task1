@@ -1,6 +1,7 @@
 body{
     background-color:#8c6736;
-    background-image: url("image/ChatGPT Image Aug 28, 2026, 06_22_02 PM.png");
+    background-image:linear-gradient(to right, rgba(0,0,0,0.57), rgba(0,0,0,0.10)),
+                url("image/ChatGPT Image Aug 28, 2026, 06_22_02 PM.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -24,12 +25,15 @@ body{
         align-items: center;
         gap:100px;
         margin-right: 100px;
-        
 }
 .navlinks a {
            color: white;
            font-size: 22px;
            text-decoration: none;
+}
+.navlinks a:hover{
+    color: #FFF33F;
+    transform: scale(1.15);
 }
 nav h1{
     text-align: left;
@@ -94,8 +98,6 @@ nav h3{
     text-decoration: none;
 }
 .gen{
-    border-radius:13%;
-    background-color: #300204;
     padding: 10px;
     display: flex;
 }
@@ -105,9 +107,14 @@ nav h3{
 .hero p{
     font-size: 25px;
 }
+.hero{
+    background: linear-gradient(135deg, #050505, #101a14,#1d2920);
+    border-radius: 10%;
+    margin: 25px;
+    padding: 15px;
+    margin-right: 20px;
+}
 .char{
-      border-radius: 13%;
-    background-color: #300204;
     padding: 10px;
     display: flex;
     margin-top: 10px;
@@ -118,11 +125,11 @@ nav h3{
 }
 
 .story{
-       border-radius: 13%;
-    background-color: #300204;
-    padding: 10px;
+    padding: 25px;
     display: flex;
     margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .story p {
     color: white;
@@ -153,8 +160,7 @@ h1{
 }
 .name h3{
     color: #03074A;
-    text-shadow: 0 0 5px white,
-                 0 0 10px #FFF33F,
+    text-shadow: 0 0 10px #999306,
                  0 0 15px #07FF2E;
 }
 h3{
@@ -181,16 +187,43 @@ h3{
     flex-wrap: wrap;
 }
 .cast img{
-     
-    width: 200px;
-    height: 200px;
     margin-top: 1px;
     border-color: 6px solid white;
     border-style: inset;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.ellie img{
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+}
+.joel img{
+    width: 330px;
+    height: 330px;
+}
+.tommy img{
+    width: 250px;
+    height: 250px;
+}
+.tess img{
+    width: 270px;
+    height: 270px;
+}
+.riley img{
+    width: 210px;
+    height: 210px;
+
 }
 .cast h3{
-    color: white;
+    color: #f5f1e8;
+    border-bottom: 2px solid #e85d3f;
     text-align: center;
+    padding-bottom: 8px;
+}
+.cast:hover{
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 p1{
     border-radius: 30%;
@@ -198,21 +231,22 @@ p1{
     padding: 3px;
 }
 .footer{
-    background-color: grey;
+    background-image: url(image/WhatsApp\ Image\ 2026-08-31\ at\ 22.30.40.jpeg);
+    color: #ddd;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 18px 20px;
+    padding: 25px;
     margin-top: 40px;
     border-top: 2px dashed #8c6736;
 }
 .footer h4{
-    font-size: 20px;
+    font-size: 27px;
     color: white;
 }
 .footer h2{
-    font-size: 25px;
-    color:#300204;
+    font-size: 30px;
+    color:#e85d3f;
 }
 .end-icon {
     width: 120px;
@@ -227,6 +261,9 @@ p1{
 .end-icon a {
     color: white;
     text-decoration: none;
+section{
+    padding: 6%;
+}
 }
 .section1,
 .section2 {

@@ -39,6 +39,7 @@ body{
 }
 .navlinks a:hover{
     color: maroon;
+    transform: scale(1.25);
 }
 nav h1{
     text-align: left;
