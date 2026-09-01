@@ -129,6 +129,7 @@ main{
     padding: 15px;
     text-align: center;
     border: 2px shiny white;
+    box-shadow: 0 0 15px black;
 }
 .card img{
     width: 100%;
@@ -139,6 +140,7 @@ main{
 }
 .card:hover{
     transform: scale(1.08);
+    box-shadow: 0 20px 50px white;
 }
 .card p{
     margin: 10px;
