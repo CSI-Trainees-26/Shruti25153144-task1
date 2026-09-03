@@ -29,18 +29,18 @@ body{
     padding-top: 8px;
     flex-wrap: wrap;
 }
-.navlinks {
+.nav-links {
         display:flex;
         align-items: center;
         gap:100px;
         margin-right: 100px;
 }
-.navlinks a {
+.nav-links a {
            color: white;
            font-size: 22px;
            font-weight: 700;
 }
-.navlinks a:hover {
+.nav-links a:hover {
     color: maroon;
     transform: scale(1.25);
 }
